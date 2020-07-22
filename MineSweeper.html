@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineSweeper</title>
+    <link rel="stylesheet" href="css/MineSweeper.css">
+</head>
+
+<body onload="initGame()">
+    <header class="main-title">
+        <h1>Welcome to my MineSweeper game!</h1>
+    </header>
+    <section class="upper-bar">
+        <h2 class="lives-left">Lives left:3</h2><br><br>
+        <h3 class="flags-left">Flags:2</h3>
+        <img class="smiley" onclick="restart()" src="pics/smiley.png"></button>
+        <h3 class="timer">Timer:0</h3><br><br>
+        <section class="bulb-hints">
+            <img class="bulb" onclick="bulb()" src="pics/OFFbulb.jpg">
+            <img class="bulb" onclick="bulb()" src="pics/OFFbulb.jpg">
+            <img class="bulb" onclick="bulb()" src="pics/OFFbulb.jpg">
+        </section>
+    </section>
+    <section class="right-side-bar">
+            <button class="level" >Level 1</button><br><br>
+            <button class="level">Level 2</button><br><br>
+            <button class="level">Level 3</button>
+        </ul>
+    </section>
+    <section class="left-side-bar">
+        <section class="safe-clicks">
+            <button class="safe-click">Safe Click</button><br><br>
+            <button class="safe-click">Safe Click</button><br><br>
+            <button class="safe-click">Safe Click</button><br>
+        </section>
+    </section>
+    <section class="game-section">
+
+    </section>
+    <script src="js/MineSweeper.js"></script>
+</body>
+
+</html>
